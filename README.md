@@ -1,65 +1,15 @@
-# Laravel Guides
+# Laravel guides
 
-![Nuxt](https://img.shields.io/badge/Nuxt-00DC82.svg?style=for-the-badge&logo=nuxt.js&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+![Nuxt](https://img.shields.io/badge/Nuxt-00DC82.svg?style=for-the-badge&logo=nuxt.js&logoColor=white)
+![Nuxt Content](https://img.shields.io/badge/Nuxt_Content-%2300DC82.svg?style=for-the-badge&logo=nuxtdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-## Описание
 
-**Laravel Guides** — это современный документационный сайт, созданный с помощью Nuxt и Nuxt Content. Он содержит сжатое, но полное руководство по Laravel с пошаговыми инструкциями, лучшими практиками и реальными примерами для создания монолитных веб-приложений.
+## DESCRIPTION
 
-Сайт генерируется как статический контент (SSG) и может быть размещен на любом хостинге с поддержкой статических сайтов.
+It's a modern documentation website built with Nuxt and Nuxt Content. It provides a concise yet complete guide to Laravel, including step-by-step instructions, best practices, and real-world examples for building monolithic web applications.
 
-## 🚀 Быстрый старт
+The project was created to help my classmates prepare for their exams and better understand Laravel through structured, practical learning materials.
 
-### Требования
-- **Node.js** >= 18.x
-- **pnpm** >= 10.x (или npm/yarn)
-
-### Установка зависимостей
-
-```bash
-pnpm install
-```
-
-### Локальная разработка
-
-```bash
-pnpm run dev
-```
-
-Сайт будет доступен по адресу `http://localhost:3000`
-
-## 📦 Сборка
-
-### Production сборка
-
-```bash
-pnpm run build
-```
-
-## Добавление нового контента
-
-Контент хранится в папке `content/` в формате Markdown. Для добавления новой страницы:
-
-1. Создайте файл с расширением `.md` в соответствующей папке
-2. Добавьте фронтметр (meta информацию) в начало файла:
-
-```markdown
----
-seo:
-  title: Название страницы
-  description: Описание для SEO
----
-
-# Заголовок
-
-Содержание...
-```
-
-3. Структура папок автоматически преобразуется в URL. Числовой префикс определяет порядок в навигации.
-
-Примеры:
-- `content/index.md` → `/`
-- `content/1.main-course/1.index.md` → `/main-course`
-- `content/1.main-course/2.chapter.md` → `/main-course/chapter`
+The site is generated as a static site (SSG) and can be deployed on any hosting platform that supports static websites.
