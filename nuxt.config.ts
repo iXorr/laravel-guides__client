@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '/laravel-guides/',
+    baseURL: process.env.NUXT_APP_BASE_URL || '/',
     buildAssetsDir: 'assets',
   },
 
